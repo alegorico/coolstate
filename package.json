@@ -1,0 +1,26 @@
+{
+  "name": "coolstate",
+  "version": "0.0.1",
+  "description": "jquery module. store state data in dynamic tables, these data can later be retrieved and treated with ease",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alegorico/coolstate.git"
+  },
+  "keywords": [
+    "data",
+    "state"
+  ],
+  "author": "Alejandro G.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alegorico/coolstate/issues"
+  },
+  "homepage": "https://github.com/alegorico/coolstate#readme",
+  "dependencies": {
+    "grunt": "^1.0.2"
+  }
+}
