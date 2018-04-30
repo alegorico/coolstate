@@ -1,6 +1,6 @@
 {
   "name": "coolstate",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "jquery module. store state data in dynamic tables, these data can later be retrieved and treated with ease",
   "main": "Gruntfile.js",
   "scripts": {
