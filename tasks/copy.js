@@ -4,5 +4,11 @@ module.exports = {
       cwd: 'assets',
       src: '**',
       dest: 'dist/'
+  },
+  sources: {
+      expand: true,
+      cwd: 'source',
+      src: '**',
+      dest: 'dist/'
   }
 }

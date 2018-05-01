@@ -11,4 +11,8 @@ module.exports = function (grunt) {
   
   grunt.registerTask('clear', ['clean']);
   grunt.registerTask('copy-resources', ['copy:assets']);
+  grunt.registerTask('copy-sources', ['copy:sources']);
+
+  grunt.registerTask('build', ['clear', 'copy-resources', 'copy-sources']);
+  
 }
