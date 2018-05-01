@@ -8,29 +8,51 @@
     <title>Documento</title>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+	<script src="coolstate.js"></script>
 </head>
   <body>
   	<h1>Table Example </h1>
 	<div style="display: flex;justify-content: center;">
 	 <table style="width:80%; align-self: center;" border="1">
 	  <tr>
-	    <th>Firstname</th>
-	    <th>Lastname</th>
-	    <th>Age</th>
+	    <th>Product</th>
+	    <th>Description</th>
+	    <th>price</th>
+	    <th>discount</th>
+	    <td></td>
 	  </tr>
-	  <tr>
-	    <td>Jill</td>
-	    <td>Smith</td>
-	    <td>50</td>
+	  <tr id="row1">
+	    <td>car</td>
+	    <td>Car white</td>
+	    <td class="pe">50000</td>
+	    <td class="di">1000</td>
+	    <td><span onclick="discount('#row1')">click me</span></td>
 	  </tr>
-	  <tr>
-	    <td>Eve</td>
-	    <td>Jackson</td>
-	    <td>94</td>
+	  <tr id="row2">
+	    <td>bicycle</td>
+	    <td>green</td>
+	    <td class="pe">94</td>
+	    <td class="di">4</td>
+	    <td><span onclick="discount('#row2')">click me</span></td>
 	  </tr>
 	 </table>
 	</div>
+	<script>
+		function discount(row) {
+			var price = $(row).children("td.pe").text();
+			var dis = $(row).children("td.di").text();
+
+			var total = $(row).coolState("total");
+			if (total == undefined) total = price;
+			total = total - dis;
+
+			$(row).coolState("total", total);
+
+			$("#demo1").text(total);
+
+		}
+	</script>
+	<textarea id="demo1" style="width: 100%; height: 100px;" disabled="disabled"></textarea> 
   </body>
 
 </html>

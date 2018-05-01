@@ -15,7 +15,7 @@ void function($){
           a[e] = $(r).attr("data-" + arg[0]);
         });
 
-        return a;
+        return (a == [] || a[0] == undefined) ? undefined : a;
       }
     }
   });
