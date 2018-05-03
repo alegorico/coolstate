@@ -14,7 +14,7 @@
     "data",
     "state",
     "jquery-plugin",
-	"ecosystem:jquery"
+    "ecosystem:jquery"
   ],
   "author": "Alejandro G.",
   "license": "MIT",
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/alegorico/coolstate#readme",
   "dependencies": {
-    "jquery": "^3.0.0"
+    "jquery": "^3.3.1"
   },
   "devDependencies": {
     "grunt": "^1.0.2",
