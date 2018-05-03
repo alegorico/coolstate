@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/alegorico/coolstate#readme",
   "dependencies": {
-    "jquery": "^1.12.2"
+    "jquery": "^3.0.0"
   },
   "devDependencies": {
     "grunt": "^1.0.2",
