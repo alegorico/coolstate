@@ -1,6 +1,6 @@
 {
   "name": "coolstate",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "jquery module. store state data in dynamic tables, these data can later be retrieved and treated with ease",
   "main": "dist/coolstate.js",
   "scripts": {
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/alegorico/coolstate#readme",
   "dependencies": {
-    "jquery" : ">= 1.7"
+    "jquery": "^1.12.2"
   },
   "devDependencies": {
     "grunt": "^1.0.2",
