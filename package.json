@@ -2,7 +2,7 @@
   "name": "coolstate",
   "version": "0.1.5",
   "description": "jquery module. store state data in dynamic tables, these data can later be retrieved and treated with ease",
-  "main": "Gruntfile.js",
+  "main": "dist/coolstate.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
