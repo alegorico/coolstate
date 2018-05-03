@@ -1,0 +1,23 @@
+{
+  "name": "coolstate",
+  "description": "jquery module. store state data in dynamic tables, these data can later be retrieved and treated with ease",
+  "main": "dist/coolstate.js",
+  "authors": [
+    "Alejandro G."
+  ],
+  "license": "MIT",
+  "keywords": [
+    "data",
+    "state",
+    "jquery-plugin",
+    "ecosystem:jquery"
+  ],
+  "homepage": "https://github.com/alegorico/coolstate",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
