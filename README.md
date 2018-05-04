@@ -1,5 +1,5 @@
-# CoolState (Incubating) :egg:
-[![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+# CoolState 
+[![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/) [![Build Status](https://travis-ci.org/alegorico/coolstate.svg?branch=master)](https://travis-ci.org/alegorico/coolstate)
 
 Is a jquery library for static data, can later be retrieved and processed
 
