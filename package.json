@@ -1,6 +1,6 @@
 {
   "name": "coolstate",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "jquery module. store state data in dynamic tables, these data can later be retrieved and treated with ease",
   "main": "dist/coolstate.js",
   "scripts": {
@@ -29,6 +29,7 @@
     "grunt": "^1.0.2",
     "grunt-contrib-clean": "^1.1.0",
     "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-uglify": "^3.3.0",
     "load-grunt-configs": "^1.0.0",
     "load-grunt-tasks": "^3.5.2"
   }
