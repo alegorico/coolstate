@@ -8,7 +8,7 @@
     <title>Documento</title>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="coolstate.min.js"></script>
+	<script src="dist/coolstate.min.js"></script>
 </head>
   <body>
   	<h1>Table Example </h1>
@@ -48,7 +48,7 @@
 
 			$(row).coolState("total", total);
 
-			$("#demo1").text(total);
+			$("#demo1").text($(row).coolState("total"));
 
 		}
 	</script>
