@@ -15,5 +15,5 @@ module.exports = function (grunt) {
   
   grunt.registerTask('build', ['clear', 'wrapper', 'uglify']);
 
-  
+  grunt.registerTask('default',['build']);
 }
