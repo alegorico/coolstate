@@ -27,6 +27,7 @@
         factory(jQuery);
     }
 }(function ($) {
+// coolstate fragment 
 	$.fn.extend({
 		coolState: function() {
 			var arg = arguments;
@@ -47,4 +48,5 @@
 			}
 		}
 	});
+
 }));
