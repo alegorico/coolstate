@@ -1,7 +1,7 @@
 # CoolState 
-[![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/) [![Build Status](https://travis-ci.org/alegorico/coolstate.svg?branch=master)](https://travis-ci.org/alegorico/coolstate)
+[![Built with Grunt](https://cdn.gruntjs.com/builtwith.svg)](https://gruntjs.com/) [![Build Status](https://travis-ci.org/alegorico/coolstate.svg?branch=master)](https://travis-ci.org/alegorico/coolstate)
 
-Is a jquery library for static data, can later be retrieved and processed
+jQuery library for persistence static data tag, (can later be retrieves and processes)
 
 ## Install
 
@@ -15,11 +15,18 @@ or
 ```
 
 ## Use
+```html
+	<script src="jquery.min.js"></script>
+	<script src="coolstate.min.js"></script>
+```
+
 ```js
     // in your script
-	// get values (string array)
+    // get values (string array)
     $(selector).coolState("property");
 
-	// set string value
+    // set string value
     $(selector).coolState("property", "value");
 ```
+
+
