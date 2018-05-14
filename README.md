@@ -6,7 +6,7 @@ jQuery library for persistence static data tag, (can later be retrieves and proc
 ## Install
 
 ```shell
-    npm -i coolstate
+    npm i coolstate
 ```
 or
 ```shell
